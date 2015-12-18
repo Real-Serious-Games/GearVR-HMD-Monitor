@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/// <summary>
+/// Simple class for rotating an object automatically.
+/// Used just to provide an example of something happening in the scene
+/// </summary>
 public class Rotate : MonoBehaviour {
 
     public enum axis { X, Y, Z };
