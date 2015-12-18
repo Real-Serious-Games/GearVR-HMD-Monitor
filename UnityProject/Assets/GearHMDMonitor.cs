@@ -74,6 +74,7 @@ public class GearHMDMonitor : MonoBehaviour
         if (nativePlugin != null)
         {
             nativePlugin.Dispose();
+            nativePlugin = null;
         }
     }
 }

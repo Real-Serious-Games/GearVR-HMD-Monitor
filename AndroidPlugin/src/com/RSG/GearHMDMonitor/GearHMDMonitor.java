@@ -28,11 +28,11 @@ public class GearHMDMonitor
     };
 
     // Set up the context and register our intent broadcast receivers
-	public GearHMDMonitor(Context context)
-	{
+    public GearHMDMonitor(Context context)
+    {
         context.registerReceiver(receiver, new IntentFilter(MOUNT_HANDLED_INTENT));
         context.registerReceiver(receiver, new IntentFilter(PROXIMITY_SENSOR_INTENT));
-	}
+    }
 
     // Return whether or not the HMD is present
     public boolean IsHMDPresent()
