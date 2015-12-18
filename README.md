@@ -1,6 +1,6 @@
 # GearHMDMonitor
 
-The Oculus SDK for Unity has no built-in method for telling when the device has been taken off by the user. 
+The Oculus SDK for Unity has no built-in method for telling when a Gear VR device has been taken off by the user. 
 Doing this will trigger OnPause() being called, but only around 10 seconds after the device has been taken 
 off, which in the case of a game or app that plays videos, can be an issue if the app keeps running while
 the user isn't looking at the screen. 
